@@ -1,0 +1,7 @@
+node_modules/
+build/
+.env
+db.sqlite3
+dowell notes 2
+dowell notes
+*.log
