@@ -1,0 +1,91 @@
+
+/*
+#wrapper{
+background: url(../images/lady_in_red.jpg) #F5F5F5;
+    background-repeat: no-repeat;
+    background-size: 400px ;
+    
+    background-position: center;
+
+
+    background-color:darkgray; 
+    border: 20px;
+    border-radius: 1%;
+    height: 100%;
+    display: grid;
+    
+}
+*/
+
+#logo {
+    border-radius: 5px;
+    float: right;
+    margin-right: 5%;
+    padding: -500%;
+    
+    
+   /* margin-top: -20px;
+    margin-left: 20%;
+    margin-right: 20%;*/
+}
+.profileHeader {
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+    
+}
+
+.secondBody{
+   padding: 30px; 
+   
+    
+}
+
+.profileBody {
+    margin-top: 100px;
+    #margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridItem {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#forProfile{
+    margin: 20px 20px 20px;
+    width: 100%;
+    
+}
+#indexForm {
+    margin-left: 25%; 
+    margin-right: 25%; 
+    padding: 5%;
+    margin-top: 100px; 
+}
+#signupForm{
+    margin-top: 90px; 
+    max-width: 300px; 
+    margin-left: 35%; 
+    margin-right: 35%;
+}
+
+button{
+    border: 1px solid;
+   box-shadow: inset 0 0 10px #000000;
+    background-color: darkgreen;
+}
+#uxBody{
+    display: grid;
+    place-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+     background-color:darkgray;
+    
+}
+#top{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
