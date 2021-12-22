@@ -3,6 +3,8 @@ db.sqlite3
 dowell notes 2
 dowell notes
 *.log
+/envDow
+envDow/
 
 # for React
 /build

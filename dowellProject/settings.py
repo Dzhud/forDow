@@ -36,6 +36,7 @@ DEBUG = True
 # ALLOWED_HOSTS = ['https://100014.pythonanywhere.com/', '127.0.0.1', 'localhost' ]
 ALLOWED_HOSTS = ['*']
 
+
 # for Django-debug-toolbar
 INTERNAL_IPS = [
     '127.0.0.1',
@@ -149,18 +150,29 @@ STATICFILES_DIRS = [STATIC_DIR.replace("\\", "/"), os.path.join(BASE_DIR, 'dowel
 
 # For django-cors-headers to whitelist 'localhost:3000'
 
+
 CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:7000',
-    'http://localhost:3000',
-    'http://localhost:7000',
-    
-   
+    'http://localhost:3000',  
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True
+#CORS_ORIGIN_ALLOW_ALL = True
+
 CORS_ALLOWED_ORIGIN_REGEXES = [
     'http://localhost:3000',
     'http://127.0.0.1:7000',
+    'https://100014.pythonanywhere.com',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_HEADERS = [
+'accept',
+'accept-encoding',
+'authorization',
+'content-type',
+'dnt',
+'origin',
+'user-agent',
+'x-csrftoken',
+'x-requested-with',
+]
